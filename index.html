@@ -2,59 +2,28 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-</style>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 
 <h2 style="text-align:center">Welcome</h2>
 
 <div class="card">
-  <img src="Images/user.jpeg" alt="Charnpreet" style="width:100%">
+  <img src="Images/user.png" alt="Charnpreet">
   <h1>Charnpreet Singh</h1>
-  <p class="title">An ios Developer</p>
-  <p>Swinburne University</p>
+  <p>An ios Developer</p>
+  <p class="title">Swinburne University</p>
   <div style="margin: 24px 0;">
     <a href="https://twitter.com/charnpreet89"><i class="fa fa-twitter"></i></a>
     <a href="https://linkedin.com/in/charn89"><i class="fa fa-linkedin"></i></a>
   </div>
-  <p><button>Contact</button></p>
+  <div class="dropdown">
+    <button class="dropbtn">Projects</button>
+      <div class="dropdown-content">
+        <a href="https://apps.apple.com/us/app/id1526251689">GurbaniAnyTime</a>
+        <a href="https://apps.apple.com/au/app/id1555975361">Speedometer</a>
+      </div>
+  </div>
 </div>
-
 </body>
 </html>
